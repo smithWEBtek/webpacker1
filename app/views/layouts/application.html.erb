@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Myapp</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+    <%= javascript_pack_tag 'index.js' %>
+
+  </head>
+
+  <body>
+  <div id="asdf">logo goes here </div>
+  <h1>Every view gets this, from: '/views/layouts/application.html.erb' </h1>
+
+    <%= yield %>
+
+  </body>
+</html>
